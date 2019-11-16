@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Stronghold Finder</title>
+</head>
+<body>
+
+<script src="calculate.js"></script>
+
+<h1>Minecraft Stronghold Finder</h1>
+
+    <form>
+        X Coordinate of the first place you stand
+        </br>
+        <input type="number" id="x1">
+        </br>
+
+        Z Coordinate of the first place you stand
+        </br>
+        <input type="number" id="z1">
+        </br>
+
+        Degree of the first place you stand
+        </br>
+        <input type="number" id="d1">
+        </br>
+
+        X Coordinate of the second place you stand
+        </br>
+        <input type="number" id="x2">
+        </br>
+
+        Z Coordinate of the second place you stand
+        </br>
+        <input type="number" id="z2">
+        </br>
+
+        Degree of the second place you stand
+        </br>
+        <input type="number" id="d2">
+        </br>
+        </br>
+
+        <input type="button" onclick="calculate(x1, z1, d1, x2, z2, d2)" value="Calculate your closest Stronghold location">
+    </form>
+
+</body>
+</html>
